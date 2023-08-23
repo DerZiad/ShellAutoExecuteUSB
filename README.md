@@ -2,13 +2,14 @@
 
 [![N|Solid](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/1200px-Arduino_Logo.svg.png)](https://nodesource.com/products/nsolid)
 
-## Concept
->This project is a stimulation of Rubber ducky bad USB, in some pays, we don't have permission to buy Rubber ducky or to ship it, this project is about to create Rubber ducky with a Arduino Leonardo.
-### Explanation
->Arduino Leonardo or Arduino micro is working with processor ATmega32u4, it's like a keyboard, it will send binary code to the OS to play keyboard role, then the operating system will take this like clicking on a keyboard then we can easily write a script that open cmd then send HttpRequest and download payload and auto execute payload.
-```diff 
-- This project is made with Arduino Leonardo, Battery, 3 Buttons,Breadboard, some resistors and some cables, and USB to Micro USB,We have configuration button, we configure with it the keyboard type (azerty,....) this code implements Six language..., reset button back to default (US keyboard) and Start button to start exploiting the OS. With a battery, we can do preconfiguration of the tool, like we know that the machine is using azerty we can preconfigure it, then when we connect the USB to the Machine we should only click on start button
-```
+## Overview
+This project involves creating a functional simulation of a Rubber Ducky bad USB device using an Arduino Leonardo. In some regions, acquiring a Rubber Ducky or having it shipped might be restricted. To overcome these limitations, this undertaking leverages an Arduino Leonardo board.
+
+## Explanation
+The Arduino Leonardo (or Arduino Micro) is powered by the ATmega32u4 processor. It operates akin to a keyboard by transmitting binary commands to the operating system, effectively emulating keyboard inputs. By capitalizing on this feature, the project aims to develop a script that emulates keyboard inputs to perform various actions, such as opening a command prompt, initiating HTTP requests, downloading payloads, and executing them automatically.
+
+- The project employs components such as the Arduino Leonardo, a battery, three buttons, a breadboard, resistors, cables, and a USB-to-Micro USB adapter. The configuration button facilitates the selection of keyboard types (e.g., azerty, etc.). Notably, the code accommodates six languages. A reset button restores settings to the default (US keyboard), while the Start button activates the OS exploitation. The integration of a battery allows for preconfiguring the tool. For instance, if the target machine employs an azerty keyboard, preconfiguration is possible. Upon connecting the USB to the target machine, clicking the Start button is all that's required to initiate the process.
+
 ## Demonstration
 >This is the main electrical assembly of my project
 ![](images/principal.jfif)
