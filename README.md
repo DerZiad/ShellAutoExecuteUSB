@@ -12,11 +12,6 @@ The Arduino Leonardo (or Arduino Micro) is powered by the ATmega32u4 processor. 
 
 - The project employs components such as the Arduino Leonardo, a battery, three buttons, a breadboard, resistors, cables, and a USB-to-Micro USB adapter. The configuration button facilitates the selection of keyboard types (e.g., azerty, etc.). Notably, the code accommodates six languages. A reset button restores settings to the default (US keyboard), while the Start button activates the OS exploitation. The integration of a battery allows for preconfiguring the tool. For instance, if the target machine employs an azerty keyboard, preconfiguration is possible. Upon connecting the USB to the target machine, clicking the Start button is all that's required to initiate the process.
 
-## Demonstration
-
-> This is the main electrical assembly of my project
-![](images/principal.jfif)
-
 ## Requirement
 
 - (Bouton Poussoir 12*12*7.3MM) x 3
